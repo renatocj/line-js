@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+	 <link rel="stylesheet" href="assets/css/style.css">
+    <title>Apresentação gráfica tabela IPCA</title>
+</head>
+<body>	
+    <!-- Início Tabela _ Dados fictícios-->
+        <div class="container">
+            <h1>Tabela IPCA</h1>
+            <table class="table table-light table-striped table__ipca">
+              <thead>
+                <tr>
+                  <th scope="col">Ano</th>
+                  <th scope="col">2011</th>
+                  <th scope="col">2012</th>
+                  <th scope="col">2013</th>
+                  <th scope="col">2014</th>
+                  <th scope="col">2015</th>
+                  <th scope="col">2016</th>
+                  <th scope="col">2017</th>
+                  <th scope="col">2018</th>
+                  <th scope="col">2019</th>
+                  <th scope="col">2020</th>
+                  <th scope="col">2021</th>                  
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Índice Geral</th>
+                  <td>4.28</td>
+                  <td>2.75</td>
+                  <td>3.89</td>
+                  <td>4.36</td>
+                  <td>7.48</td>
+                  <td>8.87</td>
+                  <td>6.52</td>
+                  <td>5.49</td>
+                  <td>4.74</td>
+                  <td>6.71</td>
+                  <td>9.76</td>			  
+                </tr>
+                <tr>
+                  <th scope="row">Alimentação</th>
+                  <td>2.81</td>
+                  <td>4.82</td>
+                  <td>2.37</td>
+                  <td>7.56</td>
+                  <td>4.36</td>
+                  <td>5.23</td>
+                  <td>4.87</td>
+                  <td>6.35</td>
+                  <td>6.35</td>
+                  <td>3.78</td>
+                  <td>4.85</td>			  
+                </tr>	
+                <tr>
+                  <th scope="row">Transporte</th>
+                  <td>3.87</td>
+                  <td>3.74</td>
+                  <td>4.15</td>
+                  <td>2.89</td>
+                  <td>3.84</td>
+                  <td>3.56</td>
+                  <td>4.75</td>
+                  <td>5.32</td>
+                  <td>4.56</td>
+                  <td>5.74</td>
+                  <td>6.78</td>			  
+                </tr>	
+                <tr>
+                  <th scope="row">Educação</th>
+                  <td>4.05</td>
+                  <td>2.89</td>
+                  <td>3.98</td>
+                  <td>4.84</td>
+                  <td>6.75</td>
+                  <td>5.89</td>
+                  <td>3.74</td>
+                  <td>4.78</td>
+                  <td>5.32</td>
+                  <td>5.87</td>
+                  <td>4.47</td>			  
+                </tr>										
+            </table>
+        </div>  
+        <!-- Fim Tabela-->
+
+        <!-- Div para incluir o gráfico-->
+        <div class="container" id="chart"></div>
+        <!---->
+  	
+	
+	
+<!-- Importacao script biblioteca para o grafico-->
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<!-- Importacao script - Dados irao aparecer no grafico-->
+<script type="text/javascript" src="assets/js/app.js"></script>
+<!--script para o bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>	
+</body>
+</html>
